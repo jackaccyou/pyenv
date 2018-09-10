@@ -23,7 +23,7 @@ echo "Setting up virtual environments."
 # It fails to install virtualenv if PIP_REQUIRE_VIRTUALENV was true
 export PIP_REQUIRE_VIRTUALENV=false
 pip install virtualenv
-pip install virtualenvwrapper
+sudo pip install virtualenvwrapper
 
 echo "------------------------------"
 echo "Source virtualenvwrapper from ~/.extra"
