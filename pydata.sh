@@ -46,42 +46,42 @@ echo "------------------------------"
 echo "Setting up py2-data virtual environment."
 
 # Create a Python2 data environment
-mkvirtualenv py2-data
-workon py2-data
+# mkvirtualenv py2-data
+# workon py2-data
 
 # Install Python data modules
-pip install numpy
-pip install scipy
-pip install matplotlib
-pip install pandas
-pip install sympy
-pip install nose
-pip install unittest2
-pip install seaborn
-pip install scikit-learn
-pip install "ipython[all]"
-pip install bokeh
-pip install Flask
-pip install sqlalchemy
-pip install mysql-python
+# pip install numpy
+# pip install scipy
+# pip install matplotlib
+# pip install pandas
+# pip install sympy
+# pip install nose
+# pip install unittest2
+# pip install seaborn
+# pip install scikit-learn
+# pip install "ipython[all]"
+# pip install bokeh
+# pip install Flask
+# pip install sqlalchemy
+# pip install mysql-python
 
-pip install requests
-pip install scrapy
-pip install Pillow
-pip install beautifulsoup4
-pip install opencv-python
-pip install mechanize
-pip install lxml
-pip install --upgrade autopep8
-pip install selenium
-pip install apscheduler
-pip install tensorflow  
-pip install -U spacy
-python -m spacy download en
-pip install xgboost
-pip install torch torchvision
-pip install -U imbalanced-learn
-pip install -U scikit-image
+# pip install requests
+# pip install scrapy
+# pip install Pillow
+# pip install beautifulsoup4
+# pip install opencv-python
+# pip install mechanize
+# pip install lxml
+# pip install --upgrade autopep8
+# pip install selenium
+# pip install apscheduler
+# pip install tensorflow
+# pip install -U spacy
+# python -m spacy download en
+# pip install xgboost
+# pip install torch torchvision
+# pip install -U imbalanced-learn
+# pip install -U scikit-image
 ###############################################################################
 # Python 3 Virtual Enviroment                                                 #
 ###############################################################################
